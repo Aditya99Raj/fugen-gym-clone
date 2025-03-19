@@ -20,23 +20,14 @@ This is a web-based application built with **React.js**, **Redux Toolkit**, and 
 ## ⚙️ Installation and Setup
 
 ### Clone the repository:
-```bash
-git clone <repository-url>
-cd plans-management
-Install dependencies:
-bash
-Copy
-Edit
+
 npm install
 Start the server:
 If using a JSON server, start it separately:
 
-bash
-Copy
-Edit
-json-server --watch db.json --port 5000
+### json-server --watch db.json --port 5000
 Otherwise, ensure your backend API is running.
-
+```bash
 Start the React app:
 bash
 Copy
@@ -67,12 +58,7 @@ A confirmation prompt appears.
 Confirm the deletion.
 The plan is removed from the list.
 📦 Dependencies
-react: ^18.2.0
-redux: ^5.0.0
-@reduxjs/toolkit: ^1.9.0
-axios: ^1.3.0
-tailwindcss: ^3.2.0
-json-server: ^0.17.0 (for mock backend)
+
 📄 API Endpoints
 Ensure your backend provides the following endpoints:
 
